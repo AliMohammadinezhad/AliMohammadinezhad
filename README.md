@@ -27,18 +27,18 @@ Welcome to my GitHub profile! I am a Backend Developer with a deep interest in c
 
 
 
-# Languages & Frameworks:
+### Languages & Frameworks:
 - Python
 - Django
 - Django REST Framework
 
-# Databases:
+### Databases:
 - PostgreSQL
 - MySql
 - SQLite
 - SQL Server
 
-# Other Tools:
+### Other Tools:
 - Docker
 - Git & GitHub
 - Redis
@@ -68,7 +68,7 @@ namespace AliLearningJourney
 }
 ```
 
-# 🎯 My short-term and long-term goals:
+## 🎯 My short-term and long-term goals:
 ```python
 goals = {
     "short_term": [
@@ -90,7 +90,7 @@ for term, goal_list in goals.items():
 
 ```
 
-# 🌱 My Learning Journey
+## 🌱 My Learning Journey
 ```C#
 // The learning never stops!
 class LearningJourney
