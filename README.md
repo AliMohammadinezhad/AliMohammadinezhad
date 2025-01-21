@@ -1,24 +1,31 @@
 # 👋 Hello, I'm Ali Mohammadinezhad
 
 ```python
+# 👋 Hello, I'm Ali Mohammadinezhad
+
+```python
 class BackendDeveloper:
     def __init__(self, name):
         self.name = name
         self.primary_language = "Python"
-        self.frameworks = ["Django", "Django REST Framework"]
-        self.learning = "ASP.NET Core"
+        self.frameworks = ["Django", "Django REST Framework", "ASP.NET Core"]
+        self.architectures = ["Onion Architecture", "Clean Architecture"]
+        self.design_patterns = ["Factory", "Singleton", "Repository", "Unit of Work"]
+        self.learning = "FastAPI"
         self.goal = "Build better APIs and evolve as a backend developer"
 
     def __str__(self):
         return f"{self.name} | Backend Developer"
 
     def code(self):
-        print("Coding with Django...")
-        print("Learning ASP.NET Core...")
+        print("Coding with Django, Django REST Framework, and ASP.NET Core...")
+        print("Implementing Clean Architecture and Design Patterns...")
+        print("Learning FastAPI...")
 
 me = BackendDeveloper("Ali Mohammadinezhad")
 print(me)
 me.code()
+
 ```
 
 
@@ -27,54 +34,51 @@ Welcome to my GitHub profile! I am a Backend Developer with a deep interest in c
 
 
 
-### Languages & Frameworks:
+### 💻 Languages & Frameworks:
 - Python
+- C#
 - Django
+- ASP.NET Core
 - Django REST Framework
+- FastAPI (learning)
 
-### Databases:
+### 🛢️ Databases:
 - PostgreSQL
 - MySql
+- Microsoft SQL Server
 - SQLite
 - SQL Server
 
-### Other Tools:
-- Docker
-- Git & GitHub
-- Redis
-- RabbitMQ
-- Celery
-- Load Test (like locust)
-```C#
-// Currently mastering ASP.NET Core
-namespace AliLearningJourney
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            string currentFocus = "ASP.NET Core";
-            Console.WriteLine($"I'm currently focused on: {currentFocus}");
-            LearnASP_NET_Core();
-        }
+### 🛠️ Other Tools:
+- Containerization: Docker
+- Architectures: Onion Architecture, Clean Architecture
+- Design Patterns: Factory, Singleton, Repository, Unit of Work, ...
+- Version Control: Git & GitHub
+- Caching: Redis
+- Task Queues: Celery
+- Message Brokering: RabbitMQ, Redis
+- Load Testing: Tools like locust
+- Design Patterns: Familiar with various patterns like Singleton, Factory, Repository, and Dependency Injection
 
-        static void LearnASP_NET_Core()
-        {
-            Console.WriteLine("Building RESTful APIs...");
-            Console.WriteLine("Integrating Entity Framework...");
-            Console.WriteLine("Deploying on Azure...");
-        }
-    }
-}
-```
+### 🏗️ Architectures:
+- Onion Architecture
+- Clean Architecture
+- N-Tier
+
+### 🎨 Design Patterns:
+- Singleton
+- Factory
+- Repository
+- Unit of Work
+- ...
 
 ## 🎯 My short-term and long-term goals:
 ```python
 goals = {
     "short_term": [
-        "Master ASP.NET Core",
+        "Master FastAPI",
         "Contribute to open-source projects",
-        "Build a personal project with ASP.NET Core"
+        "Build a personal project with FastAPI"
     ],
     "long_term": [
         "Become a Senior Backend Developer",
@@ -91,24 +95,21 @@ for term, goal_list in goals.items():
 ```
 
 ## 🌱 My Learning Journey
-```C#
-// The learning never stops!
-class LearningJourney
-{
-    public string CurrentFocus { get; set; } = "ASP.NET Core";
-    public string[] Topics { get; set; } = { "Building RESTful APIs", "Entity Framework Core", "Azure Deployment" };
+```python
+class LearningJourney:
+    def __init__(self):
+        self.current_focus = "FastAPI"
+        self.architecture_focus = ["Onion Architecture", "Clean Architecture"]
+        self.topics = ["Building lightweight APIs", "Asynchronous programming", "Deployment optimization"]
 
-    public void Learn()
-    {
-        foreach (var topic in Topics)
-        {
-            Console.WriteLine($"Learning {topic}...");
-        }
-    }
-}
+    def learn(self):
+        print(f"Current Focus: {self.current_focus}")
+        print(f"Learning Architectures: {', '.join(self.architecture_focus)}")
+        for topic in self.topics:
+            print(f"Learning {topic}...")
 
-var journey = new LearningJourney();
-journey.Learn();
+journey = LearningJourney()
+journey.learn()
 
 ```
 📫 Let's Connect
