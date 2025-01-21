@@ -3,7 +3,6 @@
 ```python
 # 👋 Hello, I'm Ali Mohammadinezhad
 
-```python
 class BackendDeveloper:
     def __init__(self, name):
         self.name = name
